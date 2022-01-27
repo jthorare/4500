@@ -1,0 +1,323 @@
+(testing /vagrant/canonical/E/xtcp)
+(testing /home/vagrant/repos/clarksburg/E/Tests-0/1-in.json /home/vagrant/repos/clarksburg/E/Tests-0/1-out.json)
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((EVILLLL . (#hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . "evil")) #hasheq((evil . "evil")) #hasheq((evil . "evil"))))) #hasheq((EVILLLL . (#hasheq((evil . ...
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((EVILLLL
+           .
+           (#hasheq((EVILLLL
+                     .
+                     (#hasheq((evil . "evil"))
+                      #hasheq((evil . "evil"))
+                      #hasheq((evil . "evil")))))
+            #hasheq((EVILLLL
+                     .
+                     (#hasheq((evil . "evil"))
+                      #hasheq((evil . "evil"))
+                      #hasheq((evil . "evil")))))
+            #hasheq((EVILLLL
+                     .
+                     (#hasheq((evil . "evil"))
+                      #hasheq((evil . "evil"))
+                      #hasheq((evil . "evil")))))))))
+(*** expected)
+'(#hasheq((EVILLLL
+           .
+           (#hasheq((EVILLLL
+                     .
+                     (#hasheq((evil . "live"))
+                      #hasheq((evil . "live"))
+                      #hasheq((evil . "live")))))
+            #hasheq((EVILLLL
+                     .
+                     (#hasheq((evil . "live"))
+                      #hasheq((evil . "live"))
+                      #hasheq((evil . "live")))))
+            #hasheq((EVILLLL
+                     .
+                     (#hasheq((evil . "live"))
+                      #hasheq((evil . "live"))
+                      #hasheq((evil . "live")))))))))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ())
+  ((plain fast with-newline escaped-unicode) ())
+  ((plain fast with-space plain-unicode) ())
+  ((plain fast with-space escaped-unicode) ())
+  ((plain slow with-newline plain-unicode) ())
+  ((plain slow with-newline escaped-unicode) ())
+  ((plain slow with-space plain-unicode) ())
+  ((plain slow with-space escaped-unicode) ())
+  ((pretty fast with-newline plain-unicode) ())
+  ((pretty fast with-newline escaped-unicode) ())
+  ((pretty fast with-space plain-unicode) ())
+  ((pretty fast with-space escaped-unicode) ())
+  ((pretty slow with-newline plain-unicode) ())
+  ((pretty slow with-newline escaped-unicode) ())
+  ((pretty slow with-space plain-unicode) ())
+  ((pretty slow with-space escaped-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /vagrant/canonical/E/xtcp)
+(testing /home/vagrant/repos/clarksburg/E/Tests-1/2-in.json /home/vagrant/repos/clarksburg/E/Tests-1/2-out.json)
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((4500Class . #hasheq((AverageGPA . 50000000.1) (FreeTime . null) (IsChallenging . #t) (People . ("Sam" "Robby" "Easy Name")) (Professor . "Ben'Lerner"))))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((4500Class
+           .
+           #hasheq((AverageGPA . 50000000.1)
+                   (FreeTime . null)
+                   (IsChallenging . #t)
+                   (People . ("Sam" "Robby" "Easy Name"))
+                   (Professor . "Ben'Lerner")))))
+(*** expected)
+'(#hasheq((4500Class
+           .
+           #hasheq((AverageGPA . -50000000.1)
+                   (FreeTime . null)
+                   (IsChallenging . #f)
+                   (People . ("emaN ysaE" "ybboR" "maS"))
+                   (Professor . "renreL'neB")))))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ())
+  ((plain fast with-newline escaped-unicode) ())
+  ((plain fast with-space plain-unicode) ())
+  ((plain fast with-space escaped-unicode) ())
+  ((plain slow with-newline plain-unicode) ())
+  ((plain slow with-newline escaped-unicode) ())
+  ((plain slow with-space plain-unicode) ())
+  ((plain slow with-space escaped-unicode) ())
+  ((pretty fast with-newline plain-unicode) ())
+  ((pretty fast with-newline escaped-unicode) ())
+  ((pretty fast with-space plain-unicode) ())
+  ((pretty fast with-space escaped-unicode) ())
+  ((pretty slow with-newline plain-unicode) ())
+  ((pretty slow with-newline escaped-unicode) ())
+  ((pretty slow with-space plain-unicode) ())
+  ((pretty slow with-space escaped-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /vagrant/canonical/E/xtcp)
+(testing /home/vagrant/repos/clarksburg/E/Tests-2/3-in.json /home/vagrant/repos/clarksburg/E/Tests-2/3-out.json)
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+xjson: invalid JSON strings: '#hasheq((wowiezowie . "OMG"))
+  context...:
+   body of top-level
+   /usr/share/racket/collects/racket/match/compiler.rkt:548:40: f3
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((wowiezowie . "OMG")) #hasheq((WaitWhat? . "TwoJson??")))
+(*** expected)
+'(#hasheq((wowiezowie . "GMO")) #hasheq((WaitWhat? . "??nosJowT")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ())
+  ((plain fast with-newline escaped-unicode) ())
+  ((plain fast with-space plain-unicode) ())
+  ((plain fast with-space escaped-unicode) ())
+  ((plain slow with-newline plain-unicode) ())
+  ((plain slow with-newline escaped-unicode) ())
+  ((plain slow with-space plain-unicode) ())
+  ((plain slow with-space escaped-unicode) ())
+  ((pretty fast with-newline plain-unicode) ())
+  ((pretty fast with-newline escaped-unicode) ())
+  ((pretty fast with-space plain-unicode) ())
+  ((pretty fast with-space escaped-unicode) ())
+  ((pretty slow with-newline plain-unicode) ())
+  ((pretty slow with-newline escaped-unicode) ())
+  ((pretty slow with-space plain-unicode) ())
+  ((pretty slow with-space escaped-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))

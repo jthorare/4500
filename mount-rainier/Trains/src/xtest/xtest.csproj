@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trains.Tests.Admin\Trains.Tests.Admin.csproj" />
+    <ProjectReference Include="..\Trains.Tests.Common\Trains.Tests.Common.csproj" />
+    <ProjectReference Include="..\Trains.Tests.Player\Trains.Tests.Player.csproj" />
+    <ProjectReference Include="..\Trains.Tests.Visual\Trains.Tests.Visual.csproj" />
+  </ItemGroup>
+
+</Project>

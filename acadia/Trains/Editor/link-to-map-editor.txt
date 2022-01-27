@@ -1,0 +1,1 @@
+Due to our project structure, map-editor.cs can be found at acadia/Trains/Other/Source/map-editor.cs.

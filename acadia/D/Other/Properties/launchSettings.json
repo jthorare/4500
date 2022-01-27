@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "xgui": {
+      "commandName": "Project",
+      "commandLineArgs": "< blob2.json"
+    }
+  }
+}

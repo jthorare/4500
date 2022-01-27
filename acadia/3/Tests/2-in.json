@@ -1,0 +1,40 @@
+"Montgomery"
+"Anchorage"
+{
+  "width": 500,
+  "height": 500,
+  "cities": [
+    [
+      "Montgomery",
+      [ 48, 500 ]
+    ],
+    [
+      "Princeton",
+      [ 258, 32 ]
+    ],
+    [
+      "Watchung Hills",
+      [ 0, 66 ]
+    ],
+    [
+      "Anchorage",
+      [ 43, 104 ]
+    ]
+  ],
+  "connections": {
+    "Montgomery": {
+      "Princeton": {
+        "blue": 5
+      },
+      "Watchung Hills": {
+        "red": 5,
+        "blue": 5
+      }
+    },
+    "Princeton": {
+      "Watchung Hills": {
+        "white": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+#!/bin/sh 
+
+./src/xtest/test-runner/xtest

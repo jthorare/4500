@@ -1,0 +1,58 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:xgui.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:xgui.Models"
+        mc:Ignorable="d" 
+        x:Class="xgui.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="xgui"
+		SizeToContent="WidthAndHeight"
+		Height="850"
+		Width="850"
+		Padding="15"
+		>
+	<Window.Styles>
+		<Style Selector="ItemsControl > ContentPresenter">
+			<Setter Property="Width" Value="10"/>
+			<Setter Property="Height" Value="10"/>
+			<Setter Property="Canvas.Left" Value="{Binding X}"/>
+			<Setter Property="Canvas.Top" Value="{Binding Y}"/>
+		</Style>
+	</Window.Styles>
+	<Design.DataContext>
+		<vm:MainWindowViewModel/>
+	</Design.DataContext>
+
+	<Window.Content>
+		<Panel>
+			<ItemsControl Items="{Binding Points}">
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<Canvas Background="Orange" Width="{Binding Size}" Height="{Binding Size}" ZIndex="0"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="local:Circle">
+						<Panel>
+							<Ellipse Fill="Black" Width="10" Height="10" Canvas.Top="{Binding Y}" Canvas.Left="{Binding X}" ZIndex="3"></Ellipse>
+						</Panel>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+			<ItemsControl Items="{Binding Lines}">
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<Canvas Background="Transparent" Width="{Binding Size}" Height="{Binding Size}" ZIndex="0"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="local:Connection">
+						<Line StartPoint="{Binding Start}" EndPoint="{Binding End}" Stroke="Red" StrokeThickness="1" ZIndex="1"></Line>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+		</Panel>
+	</Window.Content>
+</Window>

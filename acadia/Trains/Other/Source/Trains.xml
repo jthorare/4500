@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Trains</name>
+    </assembly>
+    <members>
+        <member name="T:Trains.GamePieces.City">
+            <summary>
+            Class representing a City used in a Map.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.City.X">
+            <summary>
+            The immutable X-position in pixels of a City on a Map where the origin (0,0) is in the top-left and right is the positive x-axis.
+            The X-position must be non-negative.
+            Accessible using CityObject.X.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.City.Y">
+            <summary>
+            The immutable Y-position in pixels of a City on a Map where the origin (0,0) is in the top-left and down is the positive y-axis.
+            The Y-position must be non-negative.
+            Accessible using CityObject.Y.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.City.Name">
+            <summary>
+            The immutable name of a City on a Map.
+            Accessible using CityObject.Name.
+            </summary>
+        </member>
+        <member name="M:Trains.GamePieces.City.#ctor(System.Int32,System.Int32,System.String)">
+            <summary>
+            Constructor used to make a City. Ensures that 
+            </summary>
+            <param name="x">The X-Position in pixels of the City represented as a non-negative integer.</param>
+            <param name="y">The Y-Position in pixels of the City represented as a non-negative integer.</param>
+            <param name="name">The name of the City represented as a string.</param>
+        </member>
+        <member name="M:Trains.GamePieces.City.ToString">
+            <summary>
+            Overridden ToString() that provides information about the values of this City.
+            </summary>
+            <returns>A string representing this City.</returns>
+        </member>
+        <member name="M:Trains.GamePieces.City.Equals(System.Object)">
+            <summary>
+            Determines equality between this City and another Object. We define two City to be equal if they have the same Name, X, and Y.
+            </summary>
+            <param name="obj">The Object to determine equality with.</param>
+            <returns>Whether this City is equal to the given Object.</returns>
+        </member>
+        <member name="M:Trains.GamePieces.City.GetHashCode">
+            <summary>
+            Determines the hash code for this City.
+            </summary>
+            <returns>An int representing the hash code of this City</returns>
+        </member>
+        <member name="T:Trains.GamePieces.Connection">
+            <summary>
+            Class representing a direct Connection between two Cities on a Map.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.Connection.CityPair">
+            <summary>
+            An immutable IEnumerable of the two City that make up a direct connection.
+            Accessible using ConnectionObject.CityPair.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.Connection.Color">
+            <summary>
+            The color of cards required for this Connection's segments represented as an enumeration of the valid colors for Trains.com.
+            Accessible using ConnectionObject.Color.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.Connection.Segments">
+            <summary>
+            The number of segments in this Connection represented as an enumeration of the acceptable lengths.
+            Accessible using ConnectionObject.Segments.
+            </summary>
+        </member>
+        <member name="M:Trains.GamePieces.Connection.#ctor(System.Collections.Generic.IEnumerable{Trains.GamePieces.City},Trains.GamePieces.Connection.SegmentColor,Trains.GamePieces.Connection.Length)">
+            <summary>
+            Constructs a Connection object. A Connection can only be constructed via a IEnumerable of City of size 2, a SegmentColor for the segments of this Connection,
+            and a Length representing an acceptable number of segments in this Connection.
+            </summary>
+            <param name="cityPair">An IEnumerable of size 2 that makes up the endpoints of this Connection.</param>
+            <param name="color">A SegmentColor indicating the color of this Connection's segments.</param>
+            <param name="length">A Length indicating the number of segments in this Connection.</param>
+        </member>
+        <member name="M:Trains.GamePieces.Connection.Equals(System.Object)">
+            <summary>
+            Determines equality between this Connection and another Object. Within the scope of Trains.com, we define two Connection to be equal if they share the same two City in their IEnumerable of City,
+            and share the same SegmentColor.
+            </summary>
+            <param name="obj">The Object to determine equality with.</param>
+            <returns>Whether this Connection is equal to the given Object.</returns>
+        </member>
+        <member name="M:Trains.GamePieces.Connection.GetHashCode">
+            <summary>
+            Determines the hash code for a Connection.
+            </summary>
+            <returns>An int representing the hash code of this Connection.</returns>
+        </member>
+        <member name="T:Trains.GamePieces.Connection.SegmentColor">
+            <summary>
+            Enum representing the acceptable Colors of a Connection for Trains.com.
+            </summary>
+        </member>
+        <member name="F:Trains.GamePieces.Connection.SegmentColor.Red">
+            <summary>
+            A red colored connection.
+            </summary>
+        </member>
+        <member name="F:Trains.GamePieces.Connection.SegmentColor.Blue">
+            <summary>
+            A blue colored connection.
+            </summary>
+        </member>
+        <member name="F:Trains.GamePieces.Connection.SegmentColor.Green">
+            <summary>
+            A green colored connection.
+            </summary>
+        </member>
+        <member name="F:Trains.GamePieces.Connection.SegmentColor.White">
+            <summary>
+            A white colored connection.
+            </summary>
+        </member>
+        <member name="T:Trains.GamePieces.Connection.Length">
+            <summary>
+            Enum representing the acceptable lengths of a Connection for Trains.Com.
+            </summary>
+        </member>
+        <member name="F:Trains.GamePieces.Connection.Length.Three">
+            <summary>
+            A length of 3 segments in a Connection.
+            </summary>
+        </member>
+        <member name="F:Trains.GamePieces.Connection.Length.Four">
+            <summary>
+            A length of 4 segments in a Connection.
+            </summary>
+        </member>
+        <member name="F:Trains.GamePieces.Connection.Length.Five">
+            <summary>
+            A length of 5 segments in a Connection.
+            </summary>
+        </member>
+        <member name="T:Trains.GamePieces.Map">
+            <summary>
+            This class represents the Map used in Trains.com.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.Map.Connections">
+            <summary>
+            An immutable ICollection of all Connection on the Map that does not contain any two equal Connection. We use ICollection because it
+            is provided common operations in System.Linq and it allows for HashSet's internally that have O(1) operation to determine if an object is present in the collection.
+            Accessible using MapObject.Connections.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.Map.Cities">
+            <summary>
+            An immutable ICollection of all City on the Map that does not contain any duplicate City.
+            We use ICollection because it is provided common operations in System.Linq and it allows for HashSet's internally that have O(1) operation
+            to determine if an object is present in the collection.
+            Accessible using MapObject.Cities.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.Map.Width">
+            <summary>
+            An immutable non-negative int representing the Width of this Map in pixels for visualization.
+            Accessible using MapObject.Width.
+            </summary>
+        </member>
+        <member name="P:Trains.GamePieces.Map.Height">
+            <summary>
+            An immutable non-negative int representing the Height of this Map in pixels for visualization.
+            Accessible using MapObject.Height.
+            </summary>
+        </member>
+        <member name="M:Trains.GamePieces.Map.#ctor(System.Collections.Generic.ICollection{Trains.GamePieces.City},System.Collections.Generic.ICollection{Trains.GamePieces.Connection},System.Int32,System.Int32)">
+            <summary>
+            Constructor used to create a Map.
+            </summary>
+            <param name="cities">A IEnumerable of City to add to this Map (possibly contains duplicates)</param>
+            <param name="connections">A IEnumerable of Connection to add to this Map (possible contains duplicates)</param>
+            <param name="width">An int representing the width of this Map (must be non-negative)</param>
+            <param name="height">An int representing the height of this Map (must be non-negative)</param>
+        </member>
+        <member name="M:Trains.GamePieces.Map.AllCityBoundsValid">
+            <summary>
+            Verifies that all City in this Map's Cities is within this Map's bounds.
+            </summary>
+        </member>
+        <member name="M:Trains.GamePieces.Map.AddNonDuplicates``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0})">
+            <summary>
+            Add all of the non-duplicate possible Object to the current ICollection of Object.
+            </summary>
+            <param name="possible">The ICollection of Objects that is being checked for duplicates.</param>
+            <param name="current">The ICollection of Objects that is having all non-duplicate Objects from possible added to it.</param>
+        </member>
+        <member name="M:Trains.GamePieces.Map.AllFeasibleDestinations">
+            <summary>
+            Calculates all possible destinations for this Map. A destination is a HashSet of City, represented as a HashSet, that are connected by a number >= 1
+            of Connection.
+            </summary>
+            <returns>Returns the ICollection of all possible destinations on this Map.</returns>
+        </member>
+        <member name="M:Trains.GamePieces.Map.RouteExists(Trains.GamePieces.City,Trains.GamePieces.City,System.Collections.Generic.ICollection{System.Collections.Generic.HashSet{Trains.GamePieces.City}},System.Collections.Generic.ICollection{Trains.GamePieces.City})">
+            <summary>
+            Determines if a route between the start City and end City exists in this Map's ICollection of Connection. Add's all destination pairs
+            to the ICollection as it comes to them.
+            </summary>
+            <param name="start">The starting City of the possibly existing route.</param>
+            <param name="end">The ending City of the possibly existing route.</param>
+            <param name="destinations">The ICollection of unordered Sets of already determined to exist destinations.</param>
+            <param name="visitedCities">The ICollection of City that have already been visited in this Map.</param>
+            <returns>A bool representing if a route exists between the two City.</returns>
+        </member>
+        <member name="T:Trains.Util.CityEqualityComparer">
+            <summary>
+            EqualityComparer for use in HashSet of City.
+            </summary>
+        </member>
+        <member name="M:Trains.Util.CityEqualityComparer.Equals(Trains.GamePieces.City,Trains.GamePieces.City)">
+            <summary>
+            Determines if the two provided City are equal.
+            </summary>
+            <param name="x">A City to determine equality with.</param>
+            <param name="y">Another City to determine equality with.</param>
+            <returns>Whether the two City objects provided are equal.</returns>
+        </member>
+        <member name="M:Trains.Util.CityEqualityComparer.GetHashCode(Trains.GamePieces.City)">
+            <summary>
+            Returns the hash code of the provided City.
+            </summary>
+            <param name="obj">The City that is getting its hash code determined.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

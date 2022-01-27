@@ -1,0 +1,30 @@
+{
+  "testing": {
+    "one": "examplestr",
+    "two": {
+      "three": 2147483647,
+      "uno": {
+        "dos": {
+          "tres": [
+            "pikachu",
+            [ "turtwig", "grotle", "torterra" ],
+            [ 54.35, false, null ]
+          ],
+          "un": true,
+          "deux": false,
+          "trois": null,
+          "ok": -35426,
+          "the": {
+            "mic": "imagine",
+            "is": [
+              0,
+              "xml",
+              { "small": "piglet" }
+            ]
+          },
+          "working": "veryhip"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+(testing /vagrant/canonical/5/xlegal)
+(testing /home/vagrant/repos/acadia/5/Tests-0/1-in.json /home/vagrant/repos/acadia/5/Tests-0/1-out.json)
+ii: contract violation
+  expected: ...cket/Common/map.rkt:28:54
+  given: '(Seattle Miami)
+  in: an and/c case of
+      the 1st argument of
+      (->
+       (and/c
+        (list/c symbol? symbol?)
+        ...cket/Common/map.rkt:28:54)
+       (and/c
+        (list/c symbol? symbol?)
+        ...cket/Common/map.rkt:28:54)
+       natural?
+       hash?
+       (set/c
+        (and/c connection? connection-good?))
+       any/c
+       ii?)
+  contract from: 
+      <pkgs>/Ticket/Common/state.rkt
+  blaming: <pkgs>/Ticket/Common/state-serialize.rkt
+   (assuming the contract is correct)
+  at: <pkgs>/Ticket/Common/state.rkt:55:3
+  context...:
+   /usr/share/racket/collects/racket/contract/private/blame.rkt:346:0: raise-blame-error
+   /usr/share/racket/collects/racket/contract/private/arrow-val-first.rkt:486:18
+   .../match/compiler.rkt:459:15: parse-loop51
+   /vagrant/deps/21SwDev/Code/get.rkt:18:0: body of top-level
+   /vagrant/canonical/5/xlegal:24:0: main
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Boston" (255 30))
+            ("Houston" (125 255))
+            ("Seattle" (0 30))
+            ("New York City" (255 50))
+            ("Los Angeles" (0 255))
+            ("Miami" (255 255))))
+          (connections
+           .
+           #hasheq((Boston
+                    .
+                    #hasheq((|New York City| . #hasheq((red . 3)))
+                            (Seattle . #hasheq((blue . 5) (green . 4)))))
+                   (Houston
+                    .
+                    #hasheq((|Los Angeles| . #hasheq((red . 4)))
+                            (Miami . #hasheq((green . 4)))
+                            (|New York City| . #hasheq((white . 5)))
+                            (Seattle . #hasheq((white . 4)))))
+                   (|Los Angeles| . #hasheq((Seattle . #hasheq((green . 5)))))
+                   (Miami
+                    .
+                    #hasheq((|New York City| . #hasheq((white . 4)))))))
+          (height . 300)
+          (width . 300))
+  #hasheq((acquired
+           .
+           ((("Houston" "New York City" "white" 5)
+             ("Miami" "New York City" "white" 4))
+            (("Houston" "Seattle" "white" 4))
+            (("Houston" "Miami" "green" 4) ("Boston" "Seattle" "blue" 5))))
+          (this
+           .
+           #hasheq((acquired
+                    .
+                    (("Houston" "Los Angeles" "red" 4)
+                     ("Los Angeles" "Seattle" "green" 5)))
+                   (cards . #hasheq((green . 4) (red . 4) (white . 6)))
+                   (destination1 . ("Seattle" "Miami"))
+                   (destination2 . ("Los Angeles" "Miami"))
+                   (rails . 12))))
+  ("Boston" "Seattle" "green" 4))
+(*** expected)
+'(#t)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /vagrant/canonical/5/xlegal)
+(/home/vagrant/repos/acadia/5/Tests-1/2-in.json is not a JSON file)
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /vagrant/canonical/5/xlegal)
+(/home/vagrant/repos/acadia/5/Tests-2/3-in.json is not a JSON file)
+()
+((passed 0) (total 1) (partial-score 0))

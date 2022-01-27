@@ -1,0 +1,107 @@
+{
+  "width": 500,
+  "height": 250,
+  "cities": [
+
+    [
+      "Atlanta",
+      [
+        300,
+        225
+      ]
+    ],
+    [
+      "Boston",
+      [
+        475,
+        100
+      ]
+    ],
+    [
+      "Chicago",
+      [
+        25,
+        125
+      ]
+    ],
+    [
+      "Los Angeles",
+      [
+        100,
+        125
+      ]
+    ],
+	[
+      "Seafront",
+      [
+        150,
+        225
+      ]
+    ],
+	[
+      "Mount Win",
+      [
+        450,
+        125
+      ]
+    ],
+	[
+      "Old York",
+      [
+        245,
+        065
+      ]
+    ],
+	[
+      "Saint Davids",
+      [
+        90,
+        90
+      ]
+    ]
+  ],
+  "connections": {
+    "Atlanta": {
+      "Boston": {
+        "red": 3
+      },
+      "Los Angeles": {
+        "white": 5
+      },
+	  "Saint Davids": {
+        "white": 5
+      },
+	  "Mount Win": {
+        "white": 5
+      },
+	  "Mount Win": {
+        "blue": 5
+      },
+	  "Seafront": {
+        "blue": 5
+      }
+    },
+    "Boston": {
+      "Chicago": {
+        "red": 4
+      },
+	  "Saint Davids": {
+        "white": 5
+      },
+	  "Mount Win": {
+        "white": 5
+      },
+	  "Mount Win": {
+        "blue": 5
+      },
+	  "Seafront": {
+        "blue": 5
+      }
+    }
+  }
+} [
+  [ "playerFour", "Buy-Now" ],
+  [ "playerOne", "Hold-10" ],
+  [ "playerThree", "Cheat" ],
+  [ "playerTwo", "Hold-10" ]
+] [ "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "red", "blue", "green", "white", "blue", "blue", "blue" ]

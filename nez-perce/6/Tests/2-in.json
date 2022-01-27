@@ -1,0 +1,61 @@
+{
+  "width": 500,
+  "height": 250,
+  "cities": [
+      [
+          "Atlanta",
+          [
+              300,
+              225
+          ]
+      ],
+    [
+      "Boston",
+      [
+        475,
+        100
+      ]
+    ],
+    [
+      "Chicago",
+      [
+        25,
+        125
+      ]
+    ],
+    [
+      "Los Angeles",
+      [
+        100,
+        125
+      ]
+    ]
+  ],
+  "connections": {
+    "Atlanta": {
+      "Boston": {
+        "red": 3
+      },
+      "Los Angeles": {
+          "white": 5
+      }
+    },
+    "Boston": {
+      "Chicago": {
+        "red": 4
+      }
+    }
+  }
+} {
+  "this": {
+    "destination1": [ "Atlanta", "Boston" ],
+    "destination2": [ "Boston", "Chicago" ],
+    "rails": 10,
+    "cards": { "white": 5 },
+    "acquired": [
+      [ "Atlanta", "Boston", "red", 3 ],
+      [ "Boston", "Chicago", "red", 4 ]
+    ]
+  },
+  "acquired": [ [ [ "Atlanta", "Los Angeles", "white", 5 ] ] ]
+}

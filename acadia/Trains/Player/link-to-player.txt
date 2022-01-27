@@ -1,0 +1,1 @@
+Due to our project structure, player.cs can be found at acadia/Trains/Other/Source/Models/GameEntities/player.cs

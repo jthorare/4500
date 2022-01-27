@@ -1,0 +1,89 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Trains.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:Trains.Util.AvaloniaConverters"
+        mc:Ignorable="d" d:DesignWidth="{Binding GameMap.Width}" d:DesignHeight="{Binding GameMap.Height}"
+		SizeToContent="WidthAndHeight"
+        x:Class="Trains.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Trains">
+
+	<!--Sets the DataContext of this MainWindow to the MainWindowViewModel-->
+	<Design.DataContext>
+		<vm:MainWindowViewModel/>
+	</Design.DataContext>
+
+
+	<Window.Resources>
+		<!--Resource Dictionary that allows for (x:Key,Object) pairs for common reference in other UserControls-->
+		<local:CityPointConverter x:Key="cityPointConverter"/>
+		<local:ConnectionStrokeDashArrayConverter x:Key="connectionStrokeDashArrayConverter"/>
+		<local:ColorConverter x:Key="colorConverter"/>
+	</Window.Resources>
+
+	<!--Common Styles within this Window for all objects of type Selector=<ObjectType>-->
+	<Window.Styles>
+		<Style Selector="ItemsControl > ContentPresenter">
+			<!--This style is necessary for putting Avalonia.Shapes.EllipseGeometry inside a Window at a specified (x,y) location-->
+			<Setter Property="Canvas.Left" Value="{Binding XPosition}"/>
+			<Setter Property="Canvas.Top" Value="{Binding YPosition}"/>
+		</Style>
+	</Window.Styles>
+
+	<Window.Content>
+		<!--Highest level grouping is a Panel that contains all subitems-->
+		<Panel>
+			<!--ItemsControl that is bound to GameMap.Cities collection via Items property-->
+			<ItemsControl Items="{Binding GameMap.Cities}" >
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<!--Panel Template used for drawing every Item in this ItemsControl.Items collection on top of-->
+						<Canvas Background="Black" Width="{Binding GameMap.Width}" Height="{Binding GameMap.Height}" ZIndex="1"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+				<ItemsControl.ItemTemplate>
+					<!--Template for drawing every item in this ItemsControl.Items collection as -->
+					<DataTemplate>
+						<!--Grid used because it allows for drawing items directly ontop of each other in the same cell-->
+						<Grid >
+							<!--Text for this City.Name-->
+							<TextBlock Margin="-25,-10,0,0" ZIndex="5" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap"
+									   Width="60"
+									   Text="{Binding CityName}" Foreground="White" FontFamily="Futura" FontSize="15">
+							</TextBlock>
+							<!--Path for drawing-->
+							<Path ZIndex="4" Name="Circle" Stroke="MediumPurple" Fill="MediumPurple">
+								<Path.Data>
+									<!--Drawing an Ellipse at center = (X,Y) and diameter is 10-->
+									<EllipseGeometry Center="{Binding XPosition}, {Binding YPosition}" RadiusX="5" RadiusY="5"/>
+								</Path.Data>
+							</Path>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+			<!--ItemsControl that is bound to GameMap.Connections via Items property-->
+			<ItemsControl Items="{Binding GameMap.Connections}">
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<!--Panel Template used for drawing every Item in this ItemsControl.Items collection on top of-->
+						<Canvas Background="Transparent" Width="{Binding GameMap.Width}" Height="{Binding GameMap.Height}" ZIndex="1"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<!--A Connection should be drawn as as a Line starting at City 1 and ends at City 2 with as many dashed segments
+						from (int)Connection.Length where the gap size is 0.5% the length of the Line
+						-->
+						<Line StartPoint="{Binding City1, Converter={StaticResource cityPointConverter}}" EndPoint="{Binding City2, Converter={StaticResource cityPointConverter}}"
+							  Stroke="{Binding Color, Converter={StaticResource colorConverter}}" StrokeThickness="1" ZIndex="2"
+							  StrokeDashArray="{Binding, Converter={StaticResource connectionStrokeDashArrayConverter}}">
+						</Line>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+		</Panel>
+	</Window.Content>
+</Window>

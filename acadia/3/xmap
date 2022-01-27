@@ -1,0 +1,3 @@
+#!/bin/sh
+chmod +x ../Trains/Other/Tests/IntegrationTests/IntegrationPub/IntegrationTests
+../Trains/Other/Tests/IntegrationTests/IntegrationPub/IntegrationTests xmap

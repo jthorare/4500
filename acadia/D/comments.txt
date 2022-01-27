@@ -1,0 +1,1 @@
+Project structure was unnecessarily complicated to navigate. Please include a README that explains how your project is structured.

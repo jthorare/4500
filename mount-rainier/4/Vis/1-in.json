@@ -1,0 +1,39 @@
+{
+  "width": 500,
+  "height": 250,
+  "cities": [
+    [
+      "Boston",
+      [
+        475,
+        100
+      ]
+    ],
+    [
+      "Atlanta",
+      [
+        300,
+        225
+      ]
+    ],
+    [
+      "Los Angeles",
+      [
+        100,
+        125
+      ]
+    ]
+  ],
+  "connections": {
+    "Atlanta": {
+      "Boston": {
+        "red": 3
+      }
+    },
+    "Los Angeles": {
+      "Atlanta": {
+        "white": 5
+      }
+    }
+  }
+}

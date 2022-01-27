@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "xtests.xstrategy": {
+      "commandName": "Project",
+      "commandLineArgs": "< ./2-in.json"
+    }
+  }
+}

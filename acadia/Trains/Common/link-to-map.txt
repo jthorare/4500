@@ -1,0 +1,1 @@
+Due to our project structure, Map.cs can be found at acadia/Trains/Other/Source/Models/GamePieces/Map.cs

@@ -1,0 +1,37 @@
+
+  "Boston"
+  "Los Angeles"
+  {
+    "width": 500,
+
+    "height": 250,
+
+    "cities": [
+      [
+        "Boston",
+        [ 475, 50 ]
+      ],
+      [
+        "Atlanta",
+        [ 300, 225 ]
+      ],
+      [
+        "Los Angeles",
+        [ 25, 125 ]
+      ]
+    ],
+
+    "connections": {
+      "Boston": {
+        "Atlanta": {
+          "green": 3
+        }
+      },
+      "Los Angeles": {
+        "Atlanta": {
+          "white": 5
+        }
+      }
+    }
+  }
+

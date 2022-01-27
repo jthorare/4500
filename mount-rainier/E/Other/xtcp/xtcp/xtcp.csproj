@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <LangVersion>latestmajor</LangVersion>
+        <Nullable>enable</Nullable>
+        <PackageVersion>0.1.1</PackageVersion>
+        <IsPackable>false</IsPackable>
+        <AssemblyVersion>0.1.0</AssemblyVersion>
+        <TargetFrameworks>net48;net5.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.21308.1" />
+      <PackageReference Include="System.Text.Json" Version="5.0.2" />
+    </ItemGroup>
+
+</Project>

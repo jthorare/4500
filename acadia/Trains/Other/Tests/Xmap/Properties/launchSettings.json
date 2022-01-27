@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Xmap": {
+      "commandName": "Project",
+      "commandLineArgs": "< 1-in.json"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "xjson": {
+      "commandName": "Project",
+      "commandLineArgs": "< 3-in.json"
+    }
+  }
+}

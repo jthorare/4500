@@ -1,0 +1,2 @@
+"All auxiliary files must be put into a sub-directory called Other." `xbin` is also an auxilary file. Please use the correct project structure in future assignments.
+

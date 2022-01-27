@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "xclients": {
+      "commandName": "Project",
+      "commandLineArgs": "8789 < ./3-in.json"
+    }
+  }
+}

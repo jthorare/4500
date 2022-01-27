@@ -1,0 +1,13 @@
+{
+  "4500Class": {
+    "People": [
+      "Sam",
+      "Robby",
+      "Easy Name"
+    ],
+    "Professor": "Ben'Lerner",
+    "AverageGPA": 50000000.1,
+    "IsChallenging": true,
+    "FreeTime": null
+  }
+}

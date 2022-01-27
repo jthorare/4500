@@ -1,0 +1,1 @@
+Due to our project structure, player-game-state.cs can be found at acadia/Trains/Other/Source/Models/GameStates/player-game-state.cs

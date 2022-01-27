@@ -1,0 +1,62 @@
+{
+    "width": 500,
+    "height": 500,
+    "cities": [
+      [
+        "Montgomery",
+        [ 48, 500 ]
+      ],
+      [
+        "Princeton",
+        [ 258, 32 ]
+      ],
+      [
+        "Watchung Hills",
+        [ 0, 66 ]
+      ],
+      [
+        "Anchorage",
+        [ 43, 104 ]
+      ]
+    ],
+    "connections": {
+      "Montgomery": {
+        "Princeton": {
+          "blue": 5
+        },
+        "Watchung Hills": {
+          "red": 5,
+          "blue": 5
+        }
+      },
+      "Princeton": {
+        "Watchung Hills": {
+          "white": 5
+        }
+      }
+    }
+  }
+  {
+    "this": {
+      "destination1": [ "Montgomery", "Watchung Hills" ],
+      "destination2": [ "Montgomery", "Princeton" ],
+      "rails": 32,
+      "cards": {
+        "red": 6,
+        "green": 4,
+        "blue": 1,
+        "white": 2
+      },
+      "acquired": [
+        ["Montgomery", "Watchung Hills", "red", 5],
+      ]
+    },
+    "acquired": [
+      [
+        [ "Princeton", "Watchung Hills", "white", 5 ]
+      ],
+      [
+        ["Montgomery", "Watchung Hills", "blue", 5]
+      ]
+    ]
+  }

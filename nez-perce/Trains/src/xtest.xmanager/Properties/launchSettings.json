@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "xtest.xmanager": {
+      "commandName": "Project",
+      "commandLineArgs": "< ./2-in.json"
+    }
+  }
+}

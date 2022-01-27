@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:xtests.xvisualize.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:panels="clr-namespace:Trains.Visual.Panels;assembly=Trains.Visual"
+        xmlns:controls="clr-namespace:Trains.Visual.Controls;assembly=Trains.Visual"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="400"
+        x:Class="xtests.xvisualize.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Trains Visualizer">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <panels:MapPanel Map="{Binding Map}">
+        <controls:ConnectionsControl Connections="{Binding Connections}"/>
+        <controls:LocationsControl Locations="{Binding Locations}"/>
+    </panels:MapPanel>
+</Window>

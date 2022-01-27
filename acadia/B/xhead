@@ -1,0 +1,4 @@
+#!/bin/sh
+
+mcs ./Other/Program.cs
+mono ./Other/Program.exe $1

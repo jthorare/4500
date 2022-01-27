@@ -1,0 +1,5 @@
+Due to our project structure, strategy.cs can be found at acadia/Trains/Other/Source/Models/Strategies/
+  - IStrategy.cs holds the interface for all Strategies.
+  - Strategy.cs is the Abstract class that holds the common functionality among Player Strategies and implements the IStrategy interface.
+  - BuyNowStrategy.cs holds the implementation for the Buy-Now strategy.
+  - Hold10Strategy.cs holds the implementation for the Hold10Strategy.

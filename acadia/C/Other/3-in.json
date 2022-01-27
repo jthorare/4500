@@ -1,0 +1,50 @@
+{
+  "minion": 4,
+  "handsome": false,
+  "thing": "bicycle",
+  "yupyopyoop": 2,
+  "data": {
+    "length": 29,
+    "text": null
+  },
+  "numey": [
+    null,
+    null,
+    5.32532,
+    null
+  ],
+  "sray": [
+    "no",
+    "cas",
+    "nit",
+    "ox"
+  ],
+  "multids": true,
+  "objs": [
+    {
+      "class": "upper",
+      "age": 4
+    },
+    {
+      "classhg": false,
+      "aghge": { "star": "wars" }
+    },
+    {
+      "classsd": [
+        "li",
+        "gh",
+        "ts",
+        [ "ab", "er" ]
+      ],
+      "agdse": -7.3254
+    },
+    {
+      "classyt": "lower",
+      "agert": 46254694.1
+    },
+    {
+      "classwq": "middle",
+      "agvhe": false
+    }
+  ]
+}

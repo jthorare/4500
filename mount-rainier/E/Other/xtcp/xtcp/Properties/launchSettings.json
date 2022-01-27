@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "xtcp": {
+      "commandName": "Project",
+      "commandLineArgs": "4000"
+    }
+  }
+}

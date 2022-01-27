@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IntegrationTests": {
+      "commandName": "Project",
+      "commandLineArgs": "xstrategy < 2-in.json"
+    }
+  }
+}

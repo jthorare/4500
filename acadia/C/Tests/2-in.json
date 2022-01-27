@@ -1,0 +1,48 @@
+{
+  "random": 98,
+  "randomtwo": -82.784,
+  "bool": true,
+  "date": 22464532.34256426,
+  "regex": "h",
+  "enum": "online",
+  "array": [
+    "theo",
+    "joi",
+    "hope",
+    "maya",
+    "max"
+  ],
+  "arrozrice": [
+    {
+      "indexes": 0,
+      "indexez": [
+        5,
+        235,
+        -1353.325,
+        -1234,
+        {
+          "whoa": "wee",
+          "ohmy": "goodness"
+        },
+        35642.241,
+        false,
+        false,
+        [ "secret" ],
+        "yo"
+      ]
+    },
+    {
+      "indoces": "widepeepo",
+      "indices": "pog"
+    },
+    {
+      "index": null,
+      "indextwo": false
+    },
+    65
+  ],
+  "nonnah": {
+    "age": 89,
+    "food": "bussin"
+  }
+}

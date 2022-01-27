@@ -1,0 +1,3 @@
+#!/bin/sh 
+
+./Other/Tests/Unit/test-pub/TestRunner
